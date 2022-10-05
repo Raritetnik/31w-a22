@@ -1,0 +1,27 @@
+/*!
+Theme Name: 31W - Mykhyalo Kuzmin
+Theme URI: http://underscores.me/
+Author: Mykhaylo Kuzmin
+Author URI: https://github.com/Raritetnik/31w-a22
+Description: Description
+Version: 1.0.0
+Text Domain: _31w
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+
+// Importation des variables
+@import "variables/colors";
+@import "variables/typography";
+
+// Importation de normalizer
+@import "generic/box-sizing";
+@import "generic/normalize";
+
+// Importation de base
+@import "base/elements/body";
+@import "base/elements/buttons";
+@import "base/elements/fields";
+
+@import "base/typography/copy";
+@import "base/typography/headings";
+
