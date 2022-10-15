@@ -22,6 +22,7 @@ get_header();
 		if ( have_posts() ) :
 			/* Start the Loop */
 			while ( have_posts() ) :
+                the_post();
 				$titre = get_the_title();
                 $code_cours = substr($titre,0, 7);
                 $titre = substr($titre,8);
